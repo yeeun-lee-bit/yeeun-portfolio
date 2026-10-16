@@ -37,7 +37,8 @@
         item.setAttribute('aria-pressed', String(active));
       });
       projectCards.forEach(card => {
-        const visible = filter === 'all' || card.dataset.category === filter;
+        const categories = (card.dataset.category || '').split(/\s+/).filter(Boolean);
+        const visible = filter === 'all' || categories.includes(filter);
         card.classList.toggle('is-hidden', !visible);
       });
     });
