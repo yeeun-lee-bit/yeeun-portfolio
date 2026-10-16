@@ -111,3 +111,102 @@ h1 span{color:#8295e5}
   .site-nav{background:rgba(255,255,255,.98);border-top-color:#e5ecf7}
   .menu-toggle span{background:#354763}
 }
+
+
+/* ── Warm, minimal Bedlington edition ─────────────────────── */
+:root{
+  --ink:#344257;
+  --paper:#fcfcfd;
+  --muted:#8792a3;
+  --line:#e7eaf0;
+  --accent:#a9ddf5;
+  --night:#f5f8fc;
+}
+body{background:#fcfcfd;color:#344257}
+.site-header{background:rgba(255,255,255,.92);color:#344257;border-color:#e8edf4}
+.wordmark span,.period{color:#aaa7e9}
+.site-nav{color:#6f7c91}
+.site-nav a:hover{color:#7c9ec8}
+.nav-contact{border-color:#dfe5ee;color:#53627a!important;background:#fff}
+.hero{background:linear-gradient(135deg,#f4f9fd 0%,#fbfaff 55%,#f0f8fc 100%);color:#344257}
+.hero:before{background:radial-gradient(circle,#d9effb 0%,rgba(217,239,251,0) 70%)}
+.hero:after{background:radial-gradient(circle,#e9e5fb 0%,rgba(233,229,251,0) 70%)}
+.hero .eyebrow{color:#7d8da4}
+.status-dot{background:#9fcfee;box-shadow:0 0 0 4px rgba(159,207,238,.2)}
+h1 span{color:#8d9ce0}
+.hero-description{color:#68788e}
+.button-light{background:#b8e3f8;color:#344b64;border-radius:999px;box-shadow:0 8px 22px rgba(134,180,214,.15)}
+.text-link{color:#5c6d84}
+.orbit{border-color:#dce7f3}
+.art-label{color:#8492a7}
+.art-chip{border-color:#e1e6f1;background:rgba(255,255,255,.9);color:#64758c;box-shadow:0 8px 22px rgba(100,125,160,.08);border-radius:999px}
+.chip-two{color:#8986d5}
+.hero-foot{border-color:#e1e9f2;color:#8a96a8}
+.bedlington-badge{position:relative;z-index:2;width:min(100%,360px);padding:20px 22px 18px;background:rgba(255,255,255,.66);border:1px solid rgba(221,230,241,.9);border-radius:46% 46% 30px 30px;display:flex;flex-direction:column;align-items:center;box-shadow:0 24px 60px rgba(111,139,175,.12);backdrop-filter:blur(8px);transform:rotate(2deg)}
+.bedlington-dog{display:block;width:min(100%,240px);height:auto;filter:drop-shadow(0 7px 7px rgba(91,109,139,.08))}
+.dog-caption{display:flex;flex-direction:column;align-items:center;gap:6px;margin-top:-2px;text-align:center}
+.dog-caption span{font:9px var(--mono);letter-spacing:.16em;color:#8896aa}
+.dog-caption strong{font-size:15px;font-weight:700;letter-spacing:-.04em;color:#556780}
+.section-intro{color:#728097}
+.filter-button{border-color:#e0e6ef;color:#718096;background:#fff}
+.filter-button:hover,.filter-button.is-active{background:#7e91d9;border-color:#7e91d9;color:#fff}
+.project-visual{background:#f1f6fb}
+.visual-neighborhood{background:linear-gradient(135deg,#e8f5f7,#eef2ff)}
+.mini-window{background:#fff;box-shadow:0 18px 50px rgba(91,130,171,.12)}
+.mini-map{background:linear-gradient(28deg,transparent 48%,#d1e6e8 49%,#d1e6e8 52%,transparent 53%),linear-gradient(100deg,transparent 42%,#e7e4f8 43%,#e7e4f8 46%,transparent 47%),#f6faff}
+.mini-map b{background:#b9e3f7;color:#425e78}
+.mini-map i{background:#b3aeea}
+.visual-publichire{background:linear-gradient(135deg,#f0efff,#eaf7fd)}
+.score-ring{border-color:#b4b2e8;box-shadow:0 0 0 18px #e9e8fb,0 0 0 19px #d5d4f1}
+.score-ring strong{color:#7778bf}
+.score-ring span{color:#8c8dc8}
+.visual-chaon{background:linear-gradient(135deg,#e5f5fd,#f0efff)}
+.phone-frame{background:#fff;border-color:#46566d;box-shadow:12px 20px 35px rgba(94,130,173,.13)}
+.phone-top{background:#46566d}
+.phone-title{color:#465a76}
+.phone-block{background:linear-gradient(135deg,#b6e3f8,#e8e9fc)}
+.phone-pills i{background:#edf3fa}
+.visual-check{background:linear-gradient(135deg,#f1efff,#e9f7ff)}
+.qr-card{box-shadow:0 14px 40px rgba(113,127,171,.12)}
+.visual-rag{background:linear-gradient(135deg,#e8f5ff,#eeedfc)}
+.node-map b{background:#7f8fd7;color:#fff}
+.node-map i{background:#b8e1f6;border-color:#f8fbff}
+.node-map span{border-color:#cedcf0}
+.visual-withzip{background:linear-gradient(135deg,#f2eefa,#eaf6fc)}
+.stack-back{background:#c9c8ed}
+.stack-front{background:#fff;color:#4b5874}
+.stack-front i{color:#9095bc}
+.project-meta{color:#8a97aa}
+.project-card h3{color:#34465d}
+.project-card>p{color:#748197}
+.tag-list span{border-color:#e1e6ee;color:#718096;background:rgba(255,255,255,.8)}
+.disclaimer{color:#8b97a8}
+.journal-section{background:linear-gradient(135deg,#f5f8fc,#f7f6ff)}
+.journal-list,.journal-item{border-color:#e2e8f1}
+.journal-number,.journal-type{color:#8996aa}
+.journal-item p{color:#748197}
+.about-detail>p{color:#6e7c91}
+.skill-groups,.skill-groups>div{border-color:#e4eaf2}
+.skill-groups span{color:#8794a7}
+.contact-section{background:linear-gradient(125deg,#eef7fc,#f3f1ff);color:#344257}
+.contact-inner .eyebrow{color:#7d8da4}
+.contact-inner h2 span{color:#8d9ce0}
+.contact-inner>p:not(.eyebrow){color:#68788e}
+.contact-foot{border-color:#e0e7f1;color:#8a96a8}
+.site-footer{color:#8793a6}
+.site-footer a{color:#586b84}
+.toast{background:#46566d}
+.contact-actions{display:flex;align-items:center;gap:24px;flex-wrap:wrap}
+.github-qr-card{display:flex;align-items:center;gap:14px;padding:12px 16px 12px 12px;border:1px solid #e0e7f1;background:rgba(255,255,255,.82);border-radius:18px;box-shadow:0 12px 28px rgba(111,139,175,.08)}
+.github-qr{display:block;width:92px;height:92px;object-fit:contain;border-radius:10px;background:#fff}
+.github-qr-card strong{display:block;font-size:12px;letter-spacing:-.02em;color:#45566f}
+.github-qr-card span{display:block;margin-top:6px;font-size:10px;line-height:1.6;color:#8793a6}
+@media(max-width:760px){
+  .site-nav{background:rgba(255,255,255,.98);border-top-color:#e5ecf7}
+  .menu-toggle span{background:#46566d}
+  .bedlington-badge{width:min(100%,300px);padding:15px 18px;border-radius:42% 42% 24px 24px}
+  .bedlington-dog{width:205px}
+  .contact-actions{align-items:flex-start;gap:18px}
+  .github-qr-card{width:100%;max-width:330px}
+  .github-qr{width:84px;height:84px}
+}
