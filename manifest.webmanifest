@@ -1,0 +1,19 @@
+{
+  "name": "Yeeun Lee — Digital & Engineering Journal",
+  "short_name": "Yeeun Portfolio",
+  "description": "디지털 서비스, AI, 데이터 프로젝트와 엔지니어링 기록",
+  "lang": "ko-KR",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f6f5f1",
+  "theme_color": "#111827",
+  "icons": [
+    {
+      "src": "assets/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
