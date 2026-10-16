@@ -4,3 +4,110 @@
 @media(min-width:1500px){.hero-copy{padding-left:calc((100vw - 1180px)/2)}}
 @media(max-width:760px){.site-header{height:66px;padding:0 5.5%}.menu-toggle{display:flex;flex-direction:column;gap:5px;background:none;border:0;padding:10px}.menu-toggle span{width:22px;height:1px;background:#fff}.site-nav{display:none;position:absolute;top:65px;left:0;right:0;padding:22px 6%;background:#111827;border-top:1px solid #303847;flex-direction:column;align-items:flex-start;gap:22px}.site-nav.is-open{display:flex}.nav-contact{margin-top:2px}.hero{padding:75px 6% 25px;grid-template-columns:1fr;min-height:unset}.hero-copy{padding:0 0 10px}.hero-art{min-height:300px;grid-row:2}.hero-foot{grid-row:3;font-size:8px}.orbit{width:280px}.orbit-two{width:220px}.art-core{width:110px;font-size:43px}.hero-description{font-size:13px}.section-wrap{width:88%}.section-block{padding-top:78px;padding-bottom:78px}.section-heading{display:block;margin-bottom:32px}.section-heading h2{font-size:46px}.section-intro{margin-top:20px}.project-grid{grid-template-columns:1fr;gap:35px}.project-visual{height:250px}.project-card h3{font-size:23px}.journal-item{grid-template-columns:27px 1fr 18px;gap:12px;padding:22px 0}.journal-item h3{font-size:17px;line-height:1.45}.journal-item p{font-size:10px}.about-layout{grid-template-columns:1fr;gap:20px}.about-lead{max-width:500px}.skill-groups>div{grid-template-columns:120px 1fr}.contact-inner{padding-top:75px}.contact-foot{margin-top:70px;font-size:8px}.site-footer{flex-wrap:wrap;font-size:8px}.site-footer span:nth-child(2){order:3;width:100%}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition:none!important;animation:none!important}}
+
+
+/* ── Soft sky & lavender redesign ───────────────────────────── */
+:root{
+  --ink:#27364b;
+  --paper:#fbfcff;
+  --muted:#7b8ba3;
+  --line:#e4eaf4;
+  --accent:#8dcdf5;
+  --night:#f4f8ff;
+}
+body{background:#fbfcff;color:#27364b}
+.site-header{
+  background:rgba(255,255,255,.94);color:#293a52;
+  border-bottom:1px solid #e6edf8;
+  backdrop-filter:blur(14px)
+}
+.wordmark span,.period{color:#8b9ee8}
+.site-nav{color:#64748b}
+.site-nav a:hover{color:#6b85d8}
+.nav-contact{border-color:#d9e4f4;color:#344661!important;background:#f7faff}
+.hero{
+  background:linear-gradient(125deg,#f2f8ff 0%,#f8f7ff 56%,#eef8ff 100%);
+  color:#293a52;position:relative;overflow:hidden
+}
+.hero:before{
+  content:"";position:absolute;width:420px;height:420px;right:9%;top:8%;
+  background:radial-gradient(circle,#d9eaff 0%,rgba(217,234,255,0) 70%);
+  pointer-events:none
+}
+.hero:after{
+  content:"";position:absolute;width:360px;height:360px;right:25%;bottom:-38%;
+  background:radial-gradient(circle,#e7e1ff 0%,rgba(231,225,255,0) 70%);
+  pointer-events:none
+}
+.hero-copy,.hero-art,.hero-foot{position:relative;z-index:1}
+.hero .eyebrow{color:#7c8ca8}
+.status-dot{background:#8a9fe9;box-shadow:0 0 0 4px rgba(138,159,233,.15)}
+h1 span{color:#8295e5}
+.hero-description{color:#65758e}
+.button-light{background:#a9dcfa;color:#28405a;border-radius:999px;box-shadow:0 8px 24px rgba(117,180,225,.18)}
+.text-link{color:#526984}
+.orbit{border-color:#d8e4f4}
+.art-core{
+  background:linear-gradient(145deg,#b9e6ff,#c9c8ff);
+  color:#344568;box-shadow:0 18px 70px rgba(147,175,237,.28)
+}
+.art-label{color:#7587a6}
+.art-chip{border-color:#dce6f4;background:rgba(255,255,255,.82);color:#536987;box-shadow:0 8px 24px rgba(109,137,179,.08)}
+.chip-two{color:#7183d4}
+.hero-foot{border-color:#dfe8f5;color:#8392a8}
+.section-intro{color:#718096}
+.filter-button{border-color:#dce5f2;color:#6c7d96;background:#fff}
+.filter-button:hover,.filter-button.is-active{background:#879be4;border-color:#879be4;color:#fff}
+.project-visual{background:#f0f6ff}
+.visual-neighborhood{background:linear-gradient(135deg,#e8f5ff,#e8f4f0)}
+.mini-window{background:#fff;box-shadow:0 18px 50px rgba(91,130,171,.14)}
+.window-dots{color:#9aaac0}
+.mini-map{background:linear-gradient(28deg,transparent 48%,#c9def5 49%,#c9def5 52%,transparent 53%),linear-gradient(100deg,transparent 42%,#e7e2fa 43%,#e7e2fa 46%,transparent 47%),#f3f8ff}
+.mini-map b{background:#a9dcfa;color:#365371}
+.mini-map i{background:#9b9be8}
+.mini-lines span{background:#e4ebf5}
+.visual-publichire{background:linear-gradient(135deg,#f0edff,#e7f5ff)}
+.score-ring{border-color:#aaaeea;box-shadow:0 0 0 18px #e7e5ff,0 0 0 19px #cbcafa}
+.score-ring strong{color:#6b70bd}
+.score-ring span{color:#8586c5}
+.visual-chaon{background:linear-gradient(135deg,#e2f4ff,#edf0ff)}
+.phone-frame{border-color:#354763;background:#fff;box-shadow:12px 20px 35px rgba(94,130,173,.16)}
+.phone-top{background:#354763}
+.phone-title{color:#354d70}
+.phone-block{background:linear-gradient(135deg,#a9dcfa,#e4e8ff)}
+.phone-pills i{background:#e9f2fc}
+.visual-check{background:linear-gradient(135deg,#f1efff,#e9f7ff)}
+.qr-card{box-shadow:0 14px 40px rgba(113,127,171,.14)}
+.visual-rag{background:linear-gradient(135deg,#e8f5ff,#e9eaff)}
+.node-map b{background:#788bd6;color:#fff}
+.node-map i{background:#b8dff8;border-color:#f5f8ff}
+.node-map span{border-color:#c7d8f1}
+.visual-withzip{background:linear-gradient(135deg,#f3eaff,#e8f5ff)}
+.stack-back{background:#c7cafa}
+.stack-front{background:#fff;color:#455274}
+.stack-front i{color:#8b91c4}
+.project-meta{color:#8b99ae}
+.project-card h3{color:#2d3e57}
+.project-card>p{color:#718096}
+.tag-list span{border-color:#dce5f2;color:#6f7f98;background:rgba(255,255,255,.7)}
+.disclaimer{color:#8997aa}
+.journal-section{background:linear-gradient(135deg,#f4f8ff,#f7f5ff)}
+.journal-list,.journal-item{border-color:#e0e7f3}
+.journal-number,.journal-type{color:#8a98b0}
+.journal-item p{color:#74839a}
+.about-detail>p{color:#6e7d93}
+.skill-groups{border-color:#e1e8f3}
+.skill-groups>div{border-color:#e1e8f3}
+.skill-groups span{color:#8594aa}
+.contact-section{background:linear-gradient(120deg,#edf7ff,#f0efff);color:#293a52}
+.contact-inner .eyebrow{color:#7c8ca8}
+.contact-inner h2 span{color:#8295e5}
+.contact-inner>p:not(.eyebrow){color:#65758e}
+.contact-foot{border-color:#dce5f2;color:#8392a8}
+.site-footer{color:#8592a6}
+.site-footer a{color:#526984}
+.toast{background:#354763}
+@media(max-width:760px){
+  .site-nav{background:rgba(255,255,255,.98);border-top-color:#e5ecf7}
+  .menu-toggle span{background:#354763}
+}
