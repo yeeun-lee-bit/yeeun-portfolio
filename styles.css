@@ -210,3 +210,8 @@ h1 span{color:#8d9ce0}
   .github-qr-card{width:100%;max-width:330px}
   .github-qr{width:84px;height:84px}
 }
+
+.project-card h3 a{display:flex;align-items:center;justify-content:space-between;width:100%}
+.project-repos{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
+.project-repos a{font-size:10px;color:#64758c;background:rgba(255,255,255,.8);border:1px solid #e1e6ee;border-radius:999px;padding:7px 10px;transition:background .2s,border-color .2s}
+.project-repos a:hover{background:#eaf5fc;border-color:#b8dff5}
